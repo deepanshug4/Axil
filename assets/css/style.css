@@ -503,7 +503,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 60px;
   height: 3px;
   background: #1dc8cd;
-  background: linear-gradient(0deg, #1dc8cd 0%, #55fabe 100%);
+  background: linear-gradient(45deg, #1de099, #28a745c7);
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -566,7 +566,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .content i {
   font-size: 20px;
   padding-right: 4px;
-  color: #1dc8cd;
+  color: #28a745c7;
 }
 
 #about .content ul {
@@ -619,7 +619,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #features .icon i:before {
   background: #1dc8cd;
-  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background: linear-gradient(45deg, #1de099, #28a745c7);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1098,7 +1098,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #1dc8cd;
+  color:  #28a745c7
 }
 
 #contact .contact-about p {
@@ -1116,7 +1116,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: #1dc8cd;
+  color: #28a745c7;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1139,7 +1139,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .info i {
   font-size: 32px;
-  color: #1dc8cd;
+  color: #28a745c7;
   float: left;
   line-height: 1;
 }
@@ -1207,7 +1207,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .php-email-form button[type="submit"] {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #1de099, #28a745c7);
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
@@ -1263,4 +1263,59 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-links a:hover {
   color: #1dc8cd;
+}
+
+
+/* ==========================================================================
+  7. Video promo Style
+   ========================================================================== */
+.video-promo {
+  background: linear-gradient(45deg, #1de099, #28a745c7);
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+.video-promo .video-promo-content {
+  color: #fff;
+}
+
+.video-promo .video-promo-content h2 {
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.video-promo .video-promo-content p {
+  margin-bottom: 30px;
+}
+
+.video-promo .video-promo-content .video-popup {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  border: 3px solid #fff;
+  color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 30px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.video-promo .video-promo-content .video-popup i {
+  line-height: 72px;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: #61D2B4;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
 }
